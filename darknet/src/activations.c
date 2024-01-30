@@ -323,7 +323,9 @@ float gradient(float x, ACTIVATION a)
         case NORM_CHAN_SOFTMAX_MAXVAL:
             //...
         case NORM_CHAN_SOFTMAX:
-            error("Error: should be used custom NORM_CHAN or NORM_CHAN_SOFTMAX-function for gradient", DARKNET_LOC);
+            printf(" Error: should be used custom NORM_CHAN or NORM_CHAN_SOFTMAX-function for gradient \n");
+            exit(0);
+            return 0;
         case ELU:
             return elu_gradient(x);
         case SELU:

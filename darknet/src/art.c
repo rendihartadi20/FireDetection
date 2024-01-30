@@ -40,7 +40,8 @@ void demo_art(char *cfgfile, char *weightfile, int cam_index)
 
         float *p = network_predict(net, in_s.data);
 
-        printf("\033[H\033[J");
+        printf("\033[2J");
+        printf("\033[1;1H");
 
         float score = 0;
         for(i = 0; i < n; ++i){
@@ -50,7 +51,7 @@ void demo_art(char *cfgfile, char *weightfile, int cam_index)
         score = score;
         printf("I APPRECIATE THIS ARTWORK: %10.7f%%\n", score*100);
         printf("[");
-    int upper = 30;
+	int upper = 30;
         for(i = 0; i < upper; ++i){
             printf("%c", ((i+.5) < score*upper) ? 219 : ' ');
         }

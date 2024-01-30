@@ -1,11 +1,8 @@
-﻿# parsing training log and plot
+﻿#### parsing training log and plot 
+**Requirement** 
+1.  ** matplotlib needed ** 
 
-## Requirements
-
-1. matplotlib
-
-## Usage
-
+**Usage** 
 1. --source-dir  the directory of training log files 
 2. --save-dir the directory to save loss curve, image and csv file
 3. --log-file  log file name to be parsed 
@@ -14,4 +11,11 @@
 
 `python log_parser.py --source-dir ./ --save-dir ./ --log-file test.log --show true`
 
-![plot](https://github.com/AlexeyAB/darknet/blob/master/scripts/log_parser/test_new.svg)
+![plot](https://github.com/Adesun/darknet/blob/log_parser/scripts/log_parser/plot.jpg)
+
+
+
+
+
+
+  

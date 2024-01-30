@@ -1,8 +1,0 @@
-C:/Users/User/Downloads/darknet-master/darknet-master/CMakeFiles/dark.dir
-C:/Users/User/Downloads/darknet-master/darknet-master/CMakeFiles/uselib.dir
-C:/Users/User/Downloads/darknet-master/darknet-master/CMakeFiles/darknet.dir
-C:/Users/User/Downloads/darknet-master/darknet-master/CMakeFiles/kmeansiou.dir
-C:/Users/User/Downloads/darknet-master/darknet-master/CMakeFiles/PACKAGE.dir
-C:/Users/User/Downloads/darknet-master/darknet-master/CMakeFiles/INSTALL.dir
-C:/Users/User/Downloads/darknet-master/darknet-master/CMakeFiles/ALL_BUILD.dir
-C:/Users/User/Downloads/darknet-master/darknet-master/CMakeFiles/ZERO_CHECK.dir
